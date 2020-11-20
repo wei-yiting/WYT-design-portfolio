@@ -1,0 +1,85 @@
+html{
+    font-size:16px;
+}
+
+body{
+    background-color: #FDF8F4;
+}
+.title{
+    position: relative;
+    width: 100%;
+    height:auto;
+    background-color: #FDF8F4;
+}
+.chineseName{
+    margin:15vw auto 10vw;
+    display: block;
+    clear: both;
+    width:40%;
+}
+.title h1{
+    position: absolute;
+    top:14.5vw;
+    left:50%;
+    transform: translate(-50%, 0);
+    font-family: 'Expletus Sans', cursive;
+    font-weight: 700;
+    font-style: normal;   
+    text-align: center;
+    font-size:8vw;
+    letter-spacing: 0.02em;
+    z-index: 10000;
+    background: none;
+    margin: 0;
+/*    line-height: 1em;*/
+}
+h2{
+    position: relative;
+    padding-top: 6.5vw;
+    left:50%;
+    transform: translate(-50%, 0);
+    font-family: 'Expletus Sans', cursive;
+    font-weight: 700;
+    font-style: normal;   
+    text-align: center;
+    font-size:7.5vw;
+    letter-spacing: 0.02em;
+    z-index: 10000;
+    background: none;
+    margin: 0;
+}
+  
+
+#m1, #m2{
+    top:10vw;
+    z-index:50;
+/*    width:70%;*/
+/*    height: 50%;*/
+}
+
+.swiperArea {
+      background-color: #FDF8F4;
+}
+
+.halftxt {
+  mix-blend-mode: difference;
+  color: #fff;
+/*  font-size: 2em;*/
+}
+
+footer{
+    margin: 10vh auto 3vh;
+    text-align: center;
+    font-size: 1em;
+    font-family: haboro-contrast-extended,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@media only screen and (min-width:768px){
+    
+.chineseName{
+margin:10vw auto 10vw;
+}
+    
+}

@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wei Yi-Ting</title>
+    
+<link href="https://fonts.googleapis.com/css2?family=Expletus+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://use.typekit.net/hys7ldf.css">
+<!--css-->
+<link href="css/ad.css" rel="stylesheet" type="text/css">
+<link href="css/swiper.css" rel="stylesheet">
+<link href="css/menu.css" rel="stylesheet">
+<link href="css/index.css" rel="stylesheet">
+<!--js-->
+<script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+<script src="js/menu.js"></script>
+<script type="text/javascript" src="js/load.js"></script>
+<script type="text/javascript" src="js/swiper.min.js"></script>
+</head>
+
+<body>
+<header>
+    <a href="index.html" class="homePage">
+        <span id="name">WEI YI TING</span>
+    </a>
+    <div class="menu-btn">
+        <div class="burger"></div>
+    </div>
+    <nav>
+        <span class="hid">WEI YI TING</span>
+        <ul>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class="hid click"><a href="index.html">Home</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!--title-->
+<section class="title">
+    <img src="images/index/name@2x.png" class="chineseName">
+    <h1 class="halftxt">WEI YI TING <br>is a designer</h1>
+
+<!--swiper banner-->
+<!-- 1200 swiper -->
+<main id="m1">
+	<section>
+      <div class="swiper-container" id="s_pic">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><a href="#"><img src="images/index/exphoto@2x.png"/></a></div>
+          <div class="swiper-slide"><a href="#"><img src="images/index/umbrellaspace2@2x.jpg"/></a></div>
+          <div class="swiper-slide"><a href="#"><img src="images/index/weaving@2x.jpg"/></a></div>
+          <div class="swiper-slide"><a href="#"><img src="images/index/foam@2x.jpg"/></a></div>
+          <div class="swiper-slide"><a href="#"><img src="images/index/plaster@2x.jpg"/></a></div>
+        </div>
+          
+        <!-- Add Pagination -->
+<!--        <div class="swiper-pagination"></div>-->
+        <!-- Add Arrows -->
+<!--
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+-->
+      </div>
+    </section>
+</main>
+    
+
+<!-- mobile swiper -->
+<main id="m2">
+	<section>
+      <div class="swiper-container" id="v_pic">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><a href="#"><img src="images/index/vexphoto@2x.jpg"></a></div>
+          <div class="swiper-slide"><a href="#"><img src="images/index/vumbrellaspace@2x.jpg"/></a></div>
+          <div class="swiper-slide"><a href="#"><img src="images/index/vweaving@2x.jpg"/></a></div>
+          <div class="swiper-slide"><a href="#"><img src="images/index/vfoam@2x.jpg"/></a></div>
+          <div class="swiper-slide"><a href="#"><img src="images/index/vplaster@2x.jpg"/></a></div>
+        </div>
+        <!-- Add Pagination -->
+<!--        <div class="swiper-pagination"></div>-->
+        <!-- Add Arrows -->
+<!--        <div class="swiper-button-next"></div>-->
+<!--        <div class="swiper-button-prev"></div>-->
+      </div>
+    </section>
+</main>
+</section>
+<div class="swiperArea">
+<h2 class="halftxt">based in<br>Taipei, Taiwan.</h2>
+</div>
+
+<footer>
+    <span>&copy;All right reserved 2020 WEI YI TING</span>
+</footer>
+    
+<!--swiper js-->
+<script>
+var swiper = new Swiper('.swiper-container', {
+	  speed: 1000,
+	  spaceBetween: 0,
+      effect: 'fade',
+	  centeredSlides: true,
+	  autoplay: {
+		delay: 1000,
+		disableOnInteraction: true,
+	  },
+	  pagination: {
+		el: '.swiper-pagination',
+		clickable: true,
+	  },
+	  navigation: {
+		nextEl: '.swiper-button-next',
+		prevEl: '.swiper-button-prev',
+	  },
+	});
+</script>
+
+</body>
+</html>

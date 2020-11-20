@@ -1,0 +1,218 @@
+@charset "utf-8";
+/* CSS Document */
+
+html{
+    background: url(../images/featherap/bgcover@2x.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+body{
+    font-family: haboro-contrast-extended,sans-serif;
+    font-style: normal;
+    color:#fff;
+    padding:0;
+    margin: 0;
+}
+
+
+/*----title----*/
+
+.landing{
+    position:relative;
+    width: 90%;
+    margin: auto;
+    height: 100vh;
+    border-bottom: 3px solid #fff;
+}
+
+.landing{
+    background: url(../images/featherap/bgcover@2x.jpg) no-repeat center center;
+    background-size: cover;
+    width:100%;
+    border-bottom: none;
+} 
+
+.title{
+    position: absolute;
+    top:45%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.title h1{
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    font-size: 10vw;
+    text-transform: uppercase;
+}
+.title h2{
+    font-weight: 400;
+    font-size: 6vw;
+    letter-spacing: 0.05em;
+}
+.title span{
+    font-weight: 300;
+    letter-spacing: 0.2em;
+    font-size: 1em;
+}
+
+/*----WORKS----*/
+.works h3, .works h4{
+    text-align: center;
+    font-size: 5vw;
+}
+
+.works h4{
+    font-weight: 500;
+}
+.mainImage{
+    width:100vw;
+}
+
+.works div{
+    margin: 10vh auto;
+}
+
+#des{
+    width:90%;
+    margin: auto;
+}
+#des p{
+    font-size: 1.1em;
+    line-height: 1.5em;
+}
+
+.other{
+    width: 95%;
+    margin: auto;
+}
+.otherImage{
+    width: 100%;
+}
+
+footer{
+    margin: 15vh auto 3vh;
+}
+
+/*----tablet & PC-----*/
+@media only screen and (min-width:768px){
+
+.title h1{
+    font-size: 6em;
+}
+.title h2{
+    font-size: 2em;
+}
+    
+.title span{
+    letter-spacing: 0.2em;
+    font-size: 1.8em;
+}
+
+.works h3{
+    font-size: 2.25em;
+    margin-bottom: 0.3em;
+}
+    
+.works h4{
+    font-size: 2em;
+    font-weight: 500;
+    margin-bottom: 0.3em;
+    text-align: center;
+}
+#des{
+    width:70%;
+    margin:0 0 0 5vw;
+}
+#des p{
+    font-size: 1.6em;
+    line-height: 1.5em;
+}
+.works{
+    position: relative;
+}
+
+/*-positioning-*/
+#w1{
+    width:60%;
+    margin: 10vh auto;
+}
+
+#w1 img{
+    width:100%;
+}
+#w2{
+width:45%;
+margin: 10vh 0 10vh 45vw;
+}
+
+#w2 img{
+    width:100%;
+}
+
+#w3{
+width:75%;
+margin: 10vh 0 10vh 10vw;
+}
+
+#w3 img{
+    width:100%;
+}
+
+#w4{
+width:42.5%;
+margin: 10vh 0 10vh 6vw;
+}
+
+#w4 img{
+    width:100%;
+}
+
+#w5{
+width:42.5%;
+margin: -45vh 0 10vh 52.5vw;
+}
+
+#w5 img{
+    width:100%;
+}
+
+#w6{
+width:60%;
+margin: 10vh 0 10vh 15vw;
+}
+
+#w6 img{
+    width:100%;
+}
+    
+#w7{
+width:75%;
+margin: 10vh auto;
+}
+
+#w7 img{
+    width:100%;
+}
+}
+
+@media only screen and (min-width:1200px){
+
+.title h1{
+    font-size: 8em;
+}
+.title h2{
+    font-size: 3em;
+}
+.works h3{
+    font-size: 2.25em;
+}
+#des{
+    width:60%;
+    margin:0 0 0 5vw;
+}
+#des p{
+    font-size: 2em;
+}
+    
+}

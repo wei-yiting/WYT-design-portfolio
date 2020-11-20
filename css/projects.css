@@ -1,0 +1,145 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    z-index: 1;
+}
+
+.projName{
+    z-index: 100;
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+    display: grid;
+    align-items: center;
+}
+
+.projName ul{
+    position: absolute;
+    z-index: 1000;
+    left: 10%;
+    top:50%;
+    transform: translate(0, -50%);
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    width:fit-content;
+}
+.projName ul li{
+    position: relative;
+    list-style: none;
+    display: block;
+    margin: 0.8em 0;
+    text-align:left;
+    cursor: pointer;
+}
+.projName ul li a{
+    font-family: haboro-contrast-extended,sans-serif;
+    font-weight: 800;
+    font-style: oblique;
+    position: relative;
+    box-sizing: border-box;
+    letter-spacing: 0.05em;
+    color:#000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size:6.8vw;
+    margin-top: 1em;
+/*    line-height: 2em;*/
+    position: relative;
+    transition:0.5s;
+}
+.projName ul li .txtFade a{
+    color:#a0a0a0;
+}
+
+.projName ul li a:before{
+    content: attr(data-text);
+    position:absolute;
+    top:0;
+    left:0;
+    width:0;
+    overflow: hidden;
+    color:#fff;
+    transition: width 0.5s;
+/*    line-height: 2em;*/
+
+}
+
+.projName ul li a:hover:before,
+.projName ul li.active a:before{
+    width:100%;
+}
+
+
+.projName #picture{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100vh;
+    transition: 1s;
+    background:#FDF8F4;
+}
+
+.projName #picture.one{
+    background: url(../images/projects/resize/featherap.jpg);
+    background-size: cover;
+}
+.projName #picture.two{
+    background: url(../images/projects/resize/umbrellight.jpg);
+    background-size: cover;
+}
+.projName #picture.three{
+    background: url(../images/projects/resize/motionsofrain.jpg);
+    background-size: cover;
+}
+.projName #picture.four{
+    background: url(../images/projects/resize/weavingleave.jpg);
+    background-size: cover;
+}
+.projName #picture.five{
+    background: url(../images/projects/resize/fluidspace.jpg);
+    background-size: cover;
+}
+.projName #picture.six{
+    background: url(../images/projects/fraction.tw.jpg);
+    background-size: cover;
+}
+
+.projName #picture.seven{
+    background: url(../images/projects/Motions.jpg);
+    background-size: cover;
+}
+
+
+footer span{
+    position: absolute;
+    text-align: center;
+    margin: auto;
+    bottom:0;
+    left:50%;
+    transform: translate(-50%, 0);
+    z-index: 1;
+}
+
+.ch_col{
+    color:#fff;
+}
+
+@media only screen and (min-width:768px){
+    
+.projName ul li a{
+    font-weight: 900;
+    font-style: normal;
+    position: relative;
+    font-size:3em;
+    color:#a0a0a0;
+
+}

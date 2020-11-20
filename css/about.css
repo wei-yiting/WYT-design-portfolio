@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #FDF8F4;
+}
+header{
+    background: #FDF8F4;
+}
+
+.intro{
+    margin:15vh auto 0;
+    clear:both;
+    position: relative;
+    width: 80%;
+}
+.intro p{
+    font-family: imperial-urw, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.2em;
+    color: #000;
+/*    text-align: justify;*/
+}
+
+.contact{
+    margin:5vh auto 7.5vh;
+    clear:both;
+    position: relative;
+    width: 80%;
+}
+
+.contact p{
+    font-family: imperial-urw, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1em;
+    color: #000;
+}
+
+.profile{
+    width:80%;
+    margin: 7.5vh auto 10vh;
+}
+
+.profile img{
+    width:100%;
+    margin: 0;
+    padding:0;
+}
+
+
+/*-----tablet------*/
+@media only screen and (min-width:768px){
+
+.intro{
+    margin:20vh 10vw 0;
+    width: 65%;
+}
+    
+.intro p{
+    font-size: 2em;
+    text-align: justify;
+}
+    
+.contact{
+    clear:both;
+    float:left;
+    display: inline-block;
+    margin:25vw 0 7.5vh 10vw;
+    width: 40%;
+}
+
+.contact p{
+    font-size: 2.3vw;
+}
+.profile{
+    float:right;
+    width:40%;
+    margin: 7.5vh 10vw 10vh 0;
+}
+
+}
+
+/*-----PC------*/
+@media only screen and (min-width:1200px){
+
+.intro{
+    margin:20vh 10vw 0;
+    width: 55%;
+}
+.intro p{
+    font-size: 2.3em;
+}
+.contact{
+    margin: 20vw 0 7.5vh 10vw;
+}
+.contact p{
+    font-size: 1.8em;
+}
+
+.profile{
+    float:right;
+    display: inline;
+    width:35%;
+    margin: 7.5vh 12.5vw 10vh 0;
+}
+}
